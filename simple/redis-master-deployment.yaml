@@ -22,7 +22,7 @@ spec:
         image: k8s.gcr.io/redis:e2e
         resources:
           requests:
-            cpu: 100m
+            cpu: 1
             memory: 100Mi
         ports:
         - containerPort: 6379
