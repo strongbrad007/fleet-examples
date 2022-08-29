@@ -22,7 +22,7 @@ spec:
         image: gcr.io/google_samples/gb-redisslave:v2
         resources:
           requests:
-            cpu: 100m
+            cpu: 1
             memory: 100Mi
         ports:
         - containerPort: 6379
